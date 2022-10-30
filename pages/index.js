@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { BsFillMoonStarsFill } from 'react-icons/bs'
-import { AiFillTwitterCircle,AiFillLinkedin,AiFillYoutube } from 'react-icons/ai'
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai'
 import Image from 'next/image'
 import deved from '../public/dev-ed-wave.png'
 export default function Home() {
@@ -29,12 +29,12 @@ export default function Home() {
             </p>
           </div>
           <div className=' text-5xl flex py-3 text-gray-600 justify-center gap-16'>
-            <AiFillTwitterCircle/>
-            <AiFillLinkedin/>
-            <AiFillYoutube/>
+            <AiFillTwitterCircle />
+            <AiFillLinkedin />
+            <AiFillYoutube />
           </div>
           <div className=' relative mx-auto bg-gradient-to-b from-teal-500 w-80 h-80 rounded-full mt-20 overflow-hidden'>
-            <Image src={deved} layout="fill" objectFit="cover"/>
+            <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
       </main>
